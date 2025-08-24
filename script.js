@@ -1,6 +1,8 @@
 const messages = [
   "Olá, meu nome é Luiz",
   "Sou desenvolvedor full stack",
+  "hello, my name is luiz",
+  "I am a full stack developer",
 ];
 
 const typingElement = document.getElementById("typing-text");
@@ -26,5 +28,6 @@ function typeEffect() {
   }
   setTimeout(typeEffect, typingSpeed);
 }
+
 
 typeEffect();
