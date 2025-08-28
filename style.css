@@ -95,7 +95,7 @@ h2 {
 }
 
 .lang-switch {
-  position: fixed; /* deixa o botão sempre visível */
+  position: fixed; 
   top: 20px;
   right: 20px;
   background-color: #ffcc00;
