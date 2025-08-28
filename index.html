@@ -16,13 +16,25 @@
   
   <section class="hero">
     <h1>Bem-vindo/welcome</h1>
+    <h1></h1>
     <h2 id="typing-text"></h2>
   </section>
 
   
   <section class="about" id="about">
-    <h3>Sobre mim</h3>
-    <p>Olá, meu nome é Luiz Gustavo, sou desenvolvedor full stack em início de carreira, apaixonado por tecnologia e programação. Tenho experiência em HTML, CSS, JavaScript, Python, C e SQL, e estou sempre buscando aprender e evoluir. Meu objetivo é criar soluções eficientes e criativas, tanto no front-end quanto no back-end.</p>
+    <div class="about-header">
+    <h3 id="about-title">Sobre mim</h3>
+    <p id="about-text">
+    Olá, meu nome é Luiz Gustavo, sou desenvolvedor full stack em início de carreira, apaixonado por tecnologia e programação. Tenho experiência em HTML, CSS, JavaScript, Python, C e SQL, e estou sempre buscando aprender e evoluir. Meu objetivo é criar soluções eficientes e criativas, tanto no front-end quanto no back-end.
+  </p>
+    <div class="lang-buttons">
+      <button onclick="setLanguage('pt')">🇧🇷 PT</button>
+      <button onclick="setLanguage('en')">🇺🇸 EN</button>
+
+    </div>
+  </div>
+     <p id="about-text">
+    
   </section>
 
   
@@ -49,5 +61,6 @@
   <script src="script.js"></script>
 </body>
 </html>
+
 
 
