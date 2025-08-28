@@ -131,4 +131,5 @@ h2 {
 
 .lang-buttons button:hover {
   background: #ffaa00;
+  transform: scale(1.05);
 }
