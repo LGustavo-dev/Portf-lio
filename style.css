@@ -93,3 +93,42 @@ h2 {
   h1 { font-size: 2rem; }
   h2 { font-size: 1.4rem; }
 }
+
+.lang-switch {
+  position: fixed; /* deixa o botão sempre visível */
+  top: 20px;
+  right: 20px;
+  background-color: #ffcc00;
+  color: #0f0f0f;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 0.9rem;
+}
+
+.lang-switch:hover {
+  background-color: #ffaa00;
+  transform: scale(1.05);
+}
+.lang-buttons {
+  margin-top: 20px;
+  text-align: center; 
+}
+
+.lang-buttons button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  background:#ffaa00 ;
+  color: white;
+  transition: 0.3s;
+}
+
+.lang-buttons button:hover {
+  background: #ffaa00;
+}
